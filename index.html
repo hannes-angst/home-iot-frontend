@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/env.css" type="text/css" />
+    <link rel="stylesheet" href="css/switch.css" type="text/css" />
+    <script src="js/socket.io.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/date.format.js"></script>
+    <script src="js/client.js"></script>
+    <title>Home</title>
+</head>
+<body>
+<div align="center" id="header">
+    <ul class='tabs'>
+        <li><a href='#tab1'>Temperatur</a></li>
+        <li><a href='#tab2'>Lights</a></li>
+        <li><a href='#tab3'>Power</a></li>
+        <li><a href='#tab4'>Harmony</a></li>
+    </ul>
+</div>
+<div id='tab1'>
+   <div class="divTable">
+        <div id="envRoot" class="divTableBody"></div>
+    </div>
+</div>
+<div id='tab2'>
+    <div class="divTable">
+        <div id="switchRoot" class="divTableBody"></div>
+    </div>
+</div>
+<div id='tab3'>
+    <div class="divTable">
+        <div id="relayRoot" class="divTableBody"></div>
+    </div>
+</div>
+<div id='tab4'>
+    <div class="divTable">
+        <div id="harmonyRoot" class="divTableBody"></div>
+    </div>
+</div>
+
+</body>
+</html>
